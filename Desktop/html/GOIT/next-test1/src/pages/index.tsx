@@ -6,10 +6,7 @@ import CountriesList from "@/components/screens/Home";
 import { Input } from "@chakra-ui/react";
 import { FC, useState } from "react";
 
-
-
 export default function Home({ countries }: any) {
-  
   // const [keyword, setKeyword] = useState("");
 
   // // const filteredCountries = countries.filter((country) =>
@@ -28,7 +25,7 @@ export default function Home({ countries }: any) {
       <Input
         variant="filled"
         placeholder="Search for a country..."
-        width="350px"
+        width="450px"
         // onChange={onInputChange}
       />
       <CountriesList countries={countries} />

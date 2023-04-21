@@ -13,7 +13,7 @@ const Country: FC<any>= ({ country }) => {
         src={country.flags.png}
         alt="Picture of the author"
         width={500}
-        height={500}
+        height={400}
       />
     </div>
   );
